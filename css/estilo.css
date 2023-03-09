@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    color: brown;
+  }
+  
+  #balance {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #transacciones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  label {
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+  }
+  
+  input[type="number"] {
+    width: 80px;
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #c3cf1b;
+    color: rgb(63, 49, 190);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1rem;
+  }
+  
+  button:hover {
+    background-color: #0c0c0c;
+    color: rgb(253, 245, 245);
+  }
+  
